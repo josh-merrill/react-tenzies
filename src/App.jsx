@@ -1,10 +1,9 @@
-import Reac, { useState, useEffect } from "react"
-import Die from "./Die"
-import Dicecount from "./Dicecount"
+import React, { useState, useEffect } from "react"
+import Die from "./components/Die"
+import Dicecount from "./components/Dicecount"
 import Timer from "./Timer"
 import { nanoid } from "nanoid"
 import Confetti from "react-confetti"
-// import Star from "./assets/star.png"
 
 export default function App() {
   const [dice, setDice] = useState(allNewDice())
@@ -70,10 +69,6 @@ export default function App() {
   ))
 
   return (
-    // <div className="tenzies-wrapper">
-    //   <div className="image-top-star">
-    //     <img src={Star} />
-    //   </div>
       <main>
         {tenzies && <Confetti />}
         <div className="title-container">
@@ -94,9 +89,5 @@ export default function App() {
           </button>
         </div>
       </main>
-    //   <div className="image-bottom-star">
-    //     <img src={Star} />
-    //   </div>
-    // </div>
   )
 }
