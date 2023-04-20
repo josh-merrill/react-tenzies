@@ -165,6 +165,10 @@ main {
 @media (min-width: 400px) {
 
   body {
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 150px 20px;
   }
 
