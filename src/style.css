@@ -159,7 +159,7 @@ main {
 @media (min-width: 400px) {
 
   body {
-    background-image: url(./public/background.png);
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
