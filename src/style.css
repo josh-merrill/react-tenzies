@@ -15,7 +15,6 @@ body {
 main {
   position: relative;
   background-color: #3240A4;
-  height: 100%;
   max-width: 500px;
   display: flex;
   flex-direction: column;
