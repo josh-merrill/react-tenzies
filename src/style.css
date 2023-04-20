@@ -4,13 +4,12 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  padding: 40px 20px;
   font-family: "K2D", sans-serif;
   background: #fdc32e;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 main {
@@ -162,6 +161,11 @@ main {
 }
 
 @media (min-width: 400px) {
+
+  body {
+    padding: 150px 20px;
+  }
+
   .dice-container {
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
