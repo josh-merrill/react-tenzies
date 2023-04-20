@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Die from "./components/Die"
 import Dicecount from "./components/Dicecount"
-import Timer from "./Timer"
+import Timer from "./components/Timer"
 import { nanoid } from "nanoid"
 import Confetti from "react-confetti"
 
